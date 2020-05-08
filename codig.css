@@ -484,7 +484,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  top:-20px;
 }
 
 @media (min-width: 1024px) {
@@ -498,7 +497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(6, 12, 34, 0.8);
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: -20px;
   left: 0;
   right: 0;
 }
