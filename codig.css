@@ -102,9 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Sections Header
 --------------------------------*/
 .section-header {
-  margin-bottom: 60px;
+  margin-bottom: auto 0x;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: auto;
 }
 
 .section-header::before {
