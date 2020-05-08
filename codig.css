@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-background: #fff;
+  background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
@@ -98,10 +98,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Sections Header
 --------------------------------*/
 .section-header {
-  margin-bottom: auto 0x;
+  margin-bottom: 60px;
   position: relative;
-  padding-bottom: auto;
-  top:0px;
+  padding-bottom: 20px;
 }
 
 .section-header::before {
@@ -110,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f6f7fd;;
+  background: #f82249;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -485,7 +484,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  top:-20px;
 }
 
 @media (min-width: 1024px) {
@@ -673,13 +671,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("https://img.webme.com/pic/t/teamcodig/about-bg.jpg");
+  background: url("../img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #ffffff;
+  color: #fff;
   padding: 60px 0 40px 0;
-  top:-20px;
 }
 
 @media (min-width: 1024px) {
@@ -1192,7 +1189,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #f6f7fd;
+  color: #000;
 }
 
 #faq #faq-list a.collapsed i::before {
