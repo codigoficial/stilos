@@ -1192,7 +1192,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #fff;
 }
 
 #faq #faq-list a.collapsed i::before {
