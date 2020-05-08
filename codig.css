@@ -9,12 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
-margin:0px;
-  padding:auto;
-height:100%;
 }
 
 a {
